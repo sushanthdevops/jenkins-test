@@ -1,6 +1,8 @@
 pipeline{
 
-agent any
+	agent {
+	   node1
+	}	
 
 tools{
 maven 'maven3.8.2'
